@@ -1,4 +1,6 @@
-const BASE_URL = process.env.REACT_APP_BASE_URL
+// const BASE_URL = process.env.REACT_APP_BASE_URL
+const BASE_URL = "https://studynotion-backend-seven.vercel.app/api/v1"
+
 
 // AUTH ENDPOINTS
 export const endpoints = {
