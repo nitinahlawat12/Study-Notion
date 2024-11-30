@@ -44,6 +44,7 @@ const Navbar = () => {
             setSubLinks(result.data.data);
         }
         catch(error) {
+            console.log(error);
             console.log("Could not fetch the category list");
         }
     }
